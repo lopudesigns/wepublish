@@ -20,7 +20,7 @@ wehelpjs branch dev \
 welitejs branch dev\
 "
 
-basePath="/Users/lopu/Dropbox/git/weyoume/"
+basePath="/mnt/c/Users/lopu/Dropbox/git/weyoume/"
 
 branch=0
 currentPackage=''
