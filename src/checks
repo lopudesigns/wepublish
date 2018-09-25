@@ -9,10 +9,6 @@ else
 		echo "installing werelease"
 		npm i -g werelease
 	fi
-	if [ -z $(command -v npm-install-missing) ] ; then
-		echo "installing npm-install-missing"
-		npm i -g npm-install-missing
-	fi
 	if [ -z $(command -v npm-check-updates) ] ; then
 		echo "installing npm-check-updates"
 		npm i -g npm-check-updates

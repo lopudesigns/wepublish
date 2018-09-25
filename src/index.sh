@@ -17,8 +17,7 @@ weauthjs branch dev \
 wecryptojs branch dev \
 werpcjs branch dev \
 wehelpjs branch dev \
-welitejs branch dev \
-weauth branch dev\
+welitejs branch dev\
 "
 
 basePath="/Users/lopu/Dropbox/git/weyoume/"
