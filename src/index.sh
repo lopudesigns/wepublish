@@ -10,8 +10,8 @@ cat cat
 ./src/checks && \
 wait
 
+# wenodejs branch dev \
 packages="\
-wenodejs branch dev \
 weschemajs branch dev \
 weauthjs branch dev \
 wecryptojs branch dev \
