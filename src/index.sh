@@ -1,5 +1,6 @@
 #!/bin/bash
 debug=0
+set -e
 
 if [ $debug == 0 ]; then
 	# echo "cleared"
@@ -37,7 +38,7 @@ for package in $packages; do
 	else
 		actualPackages+=$package" "
 	fi
-done;
+done
 for package in $packages; do
 	# echo $package
 	if [ $package = "branch" ]; then
@@ -78,8 +79,5 @@ for package in $packages; do
 		# set currentPackage to current array value because 
 		currentPackage=$package
 	fi
-done;
-
+done
 cd $basePath"/wepublish/dev-wepublish"
-# cat pussy
-# printf "\n"

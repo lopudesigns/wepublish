@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+git config --global credential.helper "cache --timeout=0"
 if [ -z $(command -v npm) ] ; then
 	echo "You need NPM and Node.js being"
 	exit 1
